@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit local credentials & config
+.streamlit/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Output exports / scratch files
+*.csv
+scratch/
+exports/
+*.sqlite
+*.sqlite3
+*.db
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
